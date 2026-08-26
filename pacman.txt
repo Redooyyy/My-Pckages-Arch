@@ -1,0 +1,36 @@
+sudo pacman -S --needed \
+  base-devel linux-headers \
+  grub efibootmgr \
+  networkmanager fish \
+  upower gvfs udisks2 intel-ucode sof-firmware \
+  hyprland \
+  sddm qt6-svg qt6-declarative qt6-wayland qt5-graphicaleffects \
+  pipewire pipewire-pulse wireplumber \
+  bluez bluez-utils \
+  polkit-gnome gnome-keyring \
+  xdg-user-dirs xdg-desktop-portal-gtk \
+  kitty foot \
+  neovim micro \
+  git lazygit github-cli \
+  starship zoxide eza direnv \
+  fastfetch btop \
+  bat ripgrep fd fzf jq \
+  trash-cli curl wget unzip zip \
+  yazi tree plocate \
+  lm_sensors acpi \
+  pciutils mesa-demos intel-gpu-tools \
+  mpd mpc ncmpcpp \
+  cava ffmpeg yt-dlp \
+  obs-studio haruna kdenlive imagemagick \
+  wl-clipboard \
+  thunar tumbler ffmpegthumbnailer nemo \
+  pavucontrol dunst \
+  papirus-icon-theme nwg-look \
+  chromium \
+  gcc make cmake ninja pkgconf \
+  python python-pip python-virtualenv \
+  nodejs npm go jdk-openjdk maven rustup \
+  mariadb mysql-workbench dbeaver \
+  libreoffice-fresh \
+  virtualbox virtualbox-host-modules-arch \
+  qt6-svg qt6-wayland

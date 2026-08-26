@@ -1,0 +1,25 @@
+git clone https://aur.archlinux.org/yay-bin.git
+cd yay-bin
+makepkg -si
+
+yay -S --needed \
+  ttf-jetbrains-mono-nerd \
+  ttf-material-symbols-variable-git \
+  brave-bin \
+  google-chrome \
+  zen-browser-bin \
+  vscodium-bin \
+  zed \
+  android-studio \
+  intellij-idea-community-edition \
+  flutter \
+  firebase-tools \
+  obsidian \
+  openboard-bin \
+  bibata-cursor-theme-bin \
+  adw-gtk-theme \
+  cliphist \
+  ydotool \
+  wtype \
+  hyprpicker \
+  virtualbox-ext-oracle
