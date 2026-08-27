@@ -713,4 +713,27 @@
             "audioInputChanged": true,
             "audioOutputChanged": true,
             "capsLockChanged": true,
-            
+            "chargingChanged": true,
+            "configLoaded": true,
+            "dndChanged": true,
+            "fullscreen": "off",
+            "gameModeChanged": true,
+            "kbLayoutChanged": true,
+            "kbLimit": true,
+            "nowPlaying": false,
+            "numLockChanged": true,
+            "vpnChanged": true
+        },
+        "vpn": {
+            "enabled": false,
+            "provider": [
+                {
+                    "displayName": "Wireguard (Your VPN)",
+                    "enabled": false,
+                    "interface": "your-connection-name",
+                    "name": "wireguard"
+                }
+            ]
+        }
+    }
+}
